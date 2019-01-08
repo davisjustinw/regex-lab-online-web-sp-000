@@ -20,5 +20,3 @@ def valid_phone_number?(phone)
 
 end
 
-word = gets.strip
-starts_with_a_vowel(word)
