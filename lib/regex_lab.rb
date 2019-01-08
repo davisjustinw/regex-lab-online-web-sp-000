@@ -18,6 +18,6 @@ end
 
 def valid_phone_number?(phone)
   binding.pry
-  phone.gsub(/[\s]|[[:punct:]]/, '').length == 7
+  phone.gsub(/[\s]|[[:punct:]]/, '').length == 10
 end
 
